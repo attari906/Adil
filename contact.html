@@ -1,0 +1,139 @@
+<html>
+    <head>
+        <title></title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                background-color: #E5E5E5;
+            }
+            .navBar{
+                background: rgba(0, 0, 0, 0.8);
+                height: 75px;
+            }
+            .image{
+                margin-left: 30px;
+                margin-top: 10px;
+            }
+            .menu{
+                float: right;
+                list-style: none;
+                margin: 20px;
+            }
+            .menu li{
+                display: inline-block;
+                margin: 10px 10px;
+            }
+            .menu li a{
+                text-decoration: none;
+                color: #ffffff;
+                padding: 5px 10px;
+                letter-spacing: 2px;
+                border: 1px solid #ffffff;
+            }
+            .menu li a:hover{
+                background: #ffffff;
+                transition: .5s;
+                color: #000000;
+            }
+            input{
+                width: 600px;
+                height: 30px;
+            }
+            textarea{
+                margin: 20px 0px 0px 23px;
+                width: 600px;
+            }
+            form{
+                margin-top: 20px;
+                margin-right: 500px;
+                margin-left: 80px;
+            }
+            label{
+                color: #707070;
+                font-family: 'Roboto Slab', serif;
+                font-size: 20px;
+                margin-top: 20px;
+            }
+            .btn{
+                font-family: 'Roboto Slab', serif;
+                font-size: 20px;
+            }
+            .h1{
+                font-family: 'Roboto Slab', serif;
+                text-align: center;
+                padding: 0px 0px 0px 0px;
+                height: 45px;
+                margin: 10px 0px 0px 0px; 
+                text-shadow: 1px 1px 1px #ffffff;
+                background: rgba(0, 0, 0, 0.5);
+            }
+            .d{
+                float: right;
+                margin-top: 40px;
+                margin-right: 250px;
+            }
+            .d li{
+                list-style: none;
+                font-family: 'Roboto Slab', serif;
+            }
+            .follow{
+              text-align: center;
+              font-family: cursive;
+              margin-bottom: 20px;
+              margin-top: 30px;
+              font-size: 30px; 
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <div class="navBar">
+                <img src="logo.png" class="image">
+
+                <ul class="menu">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li style="color: #ffffff"><b>Contact</b></li>
+                </ul>
+            </div>
+        </header>
+        
+        <h1 class="h1">Contact</h1>
+            
+        <div class="d">
+            <ul>
+                <li style="font-size: 30px">Contact us</li>
+                <li style="margin-top: 20px; color: #AB5805">PHONE</li>
+                <li style="color: #707070">0000000000</li>
+                <li style="margin-top: 30px; color: #AB5805">EMAIL</li>
+                <li style="color: #707070">info@xyzxyz.com</li>
+                <li style="margin-top: 30px; color: #AB5805">HOURS</li>
+                <li style="color: #707070">24*7</li>                
+            </ul>
+        </div>
+
+        <form>
+            <label> Name*</label>
+            <input style="margin: 20px 0px 0px 48px;" type="text" name="Name"><br>
+            <label> Email*</label>
+            <input style="margin: 20px 0px 0px 48px;" type="text" name="Email"><br>
+            <label> Subject*</label>
+            <input style="margin: 20px 0px 0px 34px;" type="text" name="Subject"><br>
+            <label style="vertical-align: 135px">Message*</label>
+            <textarea name="Message" cols="30" rows="10"></textarea>
+            <input class="btn" style="margin: 5px 0px 0px 120px; background: #AB5805; border: none; color: white" type="submit" name="Submit" value="Send">
+        </form>
+        <div class="follow">
+        <span>Follow us:<br></span>
+        <a href="https://facebook.com"><img src="fb.png" width="30px" height="30px"></a>
+        <a href="https://twitter.com/"><img src="twit.png" width="30px" height="30px"></a>
+        </div>
+
+    </body>
+</html>

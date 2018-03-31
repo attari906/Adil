@@ -1,0 +1,156 @@
+<html>
+    <head>
+        <title></title>
+        <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+        <style>
+            body{
+                background-color: #e6e6e6;
+            }
+            *{
+                margin: 0;
+                padding: 0;
+            }
+
+            .navBar{
+                background: rgba(0, 0, 0, 0.8);
+                height: 75px;
+            }
+            .image{
+                margin-left: 30px;
+                margin-top: 10px;
+            }
+            .menu{
+                float: right;
+                list-style: none;
+                margin: 20px;
+            }
+            .menu li{
+                display: inline-block;
+                margin: 10px 10px;
+            }
+            .menu li a{
+                text-decoration: none;
+                color: #ffffff;
+                padding: 5px 10px;
+                letter-spacing: 2px;
+                border: 1px solid #ffffff;
+            }
+            .menu li a:hover{
+                background: #ffffff;
+                transition: .5s;
+                color: #000000;
+            }
+            .sea{
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                width: 80%;
+                height: 70%;
+                display: block;
+                margin-top: 10px;
+                margin-left: auto;
+                margin-right: auto;
+                
+            }
+            .over{
+                position: relative;
+                text-align: center;
+            }
+            .text{
+                color: #ffffff;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-family: 'Vollkorn', serif;
+                font-size: 62px;
+                text-shadow: 4px 4px 4px #000;
+            }
+            .abt{
+                font-family: 'Vollkorn', serif;
+                text-align: center;
+                background: #ffffff;
+                margin-left: 10%;
+                margin-right: 10%;
+                margin-bottom: 20px;
+                font-size: 20px;
+                padding-bottom: 10px;
+                border-bottom-right-radius: 5px;
+                border-bottom-left-radius: 5px;
+            }
+            .follow{
+              text-align: center;
+              font-family: cursive;
+              margin-bottom: 20px;
+              margin-top: 20px;
+              font-size: 30px; 
+          }
+          .founder{
+              margin-top: 35px;
+              padding-top: 20px;
+              text-align: center;
+              background: #ffffff;
+              border-radius: 5px;
+              margin-left: 10%;
+              margin-right: 10%;
+              font-family: 'Vollkorn', serif;
+          }
+          .anime{
+              display: flex;
+              flex: 1;
+              width: 100%;
+              align-items: center;
+          }
+          .anime img{
+              border-radius: 50%;
+              margin: 45px;
+          }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <div class="navBar">
+                <img src="logo.png" class="image">
+
+                <ul class="menu">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><b style="color: #ffffff">About</b></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="over">
+        <img src="sea.jpg" class="sea">
+        <span class="text">Our mission is to ensure<br>
+nobody has a bad meal.</span>
+        </div>
+        <div class="abt">
+            <h1 style="padding-top:40px">We do this by</h1>
+            <p><br><b>Helping people discover great places around them.</b><br>
+            Our team gathers information from every restaurant on a regular basis to ensure our data is fresh. Our vast <br>
+        community of food lovers share their reviews and photos, so you have all that you need to make an informed <br>
+        choice.<br><br>
+        <b>Building amazing experiences around dining.</b><br>
+        Starting with information for over 1 million restaurants (and counting) globally, we're making dining smoother and <br>
+        more enjoyable with services like online ordering and table reservations.<br>
+        <br><b>Enabling restaurants to create amazing experiences.</b><br>
+        With dedicated engagement and management tools, we're enabling restaurants to spend more time focusing on <br>
+        food itself, which translates directly to better dining experiences.
+        </p>
+        </div>
+    <div class="founder">
+        <h1 style="font-size:50px">Founder's team</h1>
+        <div class="anime">
+            <img src="a.jpg" width="25%" height="280px">
+            <img src="a.jpg" width="25%" height="280px">
+            <img src="a.jpg" width="25%" height="280px">
+        </div>
+    </div>
+        <div class="follow">
+        <span>Follow us:<br></span>
+        <a href="https://facebook.com"><img src="fb.png" width="30px" height="30px"></a>
+        <a href="https://twitter.com/"><img src="twit.png" width="30px" height="30px"></a>
+        </div>
+    </body>
+</html>
